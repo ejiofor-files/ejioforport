@@ -1,1 +1,10 @@
-{"REWRITES":[{"SOURCE":"/(.*)","DESTINATION":"/"}]}
+
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "port.html",
+        "use": "@vercel/static"
+      }
+    ]
+  }{"REWRITES":[{"SOURCE":"/(.*)","DESTINATION":"/"}]}
